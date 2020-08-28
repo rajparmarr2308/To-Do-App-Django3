@@ -8,6 +8,6 @@ admin.site.index_title = 'To Do App administration'
 admin.empty_value_display = '**Empty**'
 
 urlpatterns = [
-    path(r'', include('todoapp.urls')),
+    path('', include('todoapp.urls')),
     path('admin/', admin.site.urls),
 ]
