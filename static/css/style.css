@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/4/e/854724-google-homepage-wallpaper-1920x1080-large-resolution.jpg');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
