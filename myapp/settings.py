@@ -29,7 +29,7 @@ SECRET_KEY = '0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://w3devtodoapp.herokuapp.com/','localhost']
+ALLOWED_HOSTS = ['https://apnitodoapp.herokuapp.com/','localhost']
 
 
 # Application definition
