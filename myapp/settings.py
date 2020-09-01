@@ -27,9 +27,9 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 
 SECRET_KEY = '0'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://w3devtodoapp.herokuapp.com/']
+ALLOWED_HOSTS = ['https://w3devtodoapp.herokuapp.com/','localhost']
 
 
 # Application definition
@@ -130,7 +130,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+
 
 
 STATIC_URL = '/static/'
